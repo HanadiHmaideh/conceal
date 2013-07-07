@@ -23,7 +23,9 @@ This project was written to teach myself how steganography can be applied to ima
 The LSB (Least Significant Bit) approach replaces lowest significance bits to embed the image.
 
 1 LSB = 0.39% degradation, requires 1/8th of cover image dimensions
+
 2 LSB = 1.18% degradation, requires 1/4th of cover image dimensions
+
 4 LSB = 5.88% degradation, requires 1/2th of cover image dimensions
 
 This approach applies to lossless storage formats, thus the popular JPEG is not viable.
